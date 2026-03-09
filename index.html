@@ -695,6 +695,27 @@ function studyAnswer(optIdx) {
   const q = filtered[state.currentIndex];
   const isCorrect = optIdx === q.correct;
   markQuestion(q.id, isCorrect);
+
+  // In Repasar: correct answer removes q from the list, so don't
+  // re-render (list shifted). Just show green flash then advance.
+  if (isCorrect && state.mode === 'weak') {
+    // Flash the correct button green without full re-render
+    const btns = document.querySelectorAll('.option-btn');
+    btns.forEach((btn, i) => {
+      btn.disabled = true;
+      if (i === q.correct) btn.classList.add('correct', 'reveal-correct');
+    });
+    setTimeout(() => {
+      // Don't increment index — the list shrank, next item slid into place
+      state.answered = false;
+      state.selectedOption = -1;
+      const newList = getWeakQuestions();
+      if (state.currentIndex >= newList.length) state.currentIndex = 0;
+      render();
+    }, 600);
+    return;
+  }
+
   render();
 
   if (isCorrect) {
@@ -716,6 +737,7 @@ function studyAnswer(optIdx) {
 function nextStudyQuestion() {
   clearAutoAdvance();
   const filtered = state.mode === 'weak' ? getWeakQuestions() : getFiltered();
+  if (filtered.length === 0) { state.currentIndex = 0; render(); return; }
   state.currentIndex = (state.currentIndex + 1) % filtered.length;
   state.answered = false;
   state.selectedOption = -1;
