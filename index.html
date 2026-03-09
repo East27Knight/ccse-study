@@ -696,10 +696,24 @@ function studyAnswer(optIdx) {
   const isCorrect = optIdx === q.correct;
   markQuestion(q.id, isCorrect);
 
-  render();
-
   if (state.mode === 'weak') {
-    // Repasar: always 4s for both correct and wrong
+    // Repasar: DON'T full re-render (list may have shifted).
+    // Just highlight buttons in place, show countdown, then advance after 4s.
+    const btns = document.querySelectorAll('.option-btn');
+    btns.forEach((btn, i) => {
+      btn.disabled = true;
+      if (i === q.correct) btn.classList.add('correct', 'reveal-correct');
+      else if (i === optIdx) btn.classList.add('wrong');
+    });
+    // Inject countdown bar
+    const qa = document.querySelector('.question-area');
+    if (qa) {
+      const cd = document.createElement('div');
+      cd.className = 'countdown-bar';
+      cd.id = 'countdown-bar';
+      cd.innerHTML = 'Siguiente en <span id="countdown-num">4</span>s';
+      qa.appendChild(cd);
+    }
     state.countdownLeft = 4;
     autoAdvanceTimer = setInterval(() => {
       state.countdownLeft--;
@@ -716,19 +730,25 @@ function studyAnswer(optIdx) {
         render();
       }
     }, 1000);
-  } else if (isCorrect) {
-    setTimeout(() => nextStudyQuestion(), 600);
   } else {
-    state.countdownLeft = 4;
-    autoAdvanceTimer = setInterval(() => {
-      state.countdownLeft--;
-      const el = document.getElementById('countdown-num');
-      if (el) el.textContent = state.countdownLeft;
-      if (state.countdownLeft <= 0) {
-        clearAutoAdvance();
-        nextStudyQuestion();
-      }
-    }, 1000);
+    render();
+  }
+
+  if (state.mode !== 'weak') {
+    if (isCorrect) {
+      setTimeout(() => nextStudyQuestion(), 600);
+    } else {
+      state.countdownLeft = 4;
+      autoAdvanceTimer = setInterval(() => {
+        state.countdownLeft--;
+        const el = document.getElementById('countdown-num');
+        if (el) el.textContent = state.countdownLeft;
+        if (state.countdownLeft <= 0) {
+          clearAutoAdvance();
+          nextStudyQuestion();
+        }
+      }, 1000);
+    }
   }
 }
 
