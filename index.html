@@ -542,7 +542,7 @@ function renderQuestionCard(q, num, total, context) {
   });
   html += '</div>';
 
-  if (state.answered && (state.selectedOption !== q.correct || state.mode === 'weak')) {
+  if (state.answered && state.selectedOption !== q.correct) {
     html += `<div class="countdown-bar" id="countdown-bar">Siguiente en <span id="countdown-num">${state.countdownLeft || 4}</span>s</div>`;
   }
 
@@ -696,24 +696,12 @@ function studyAnswer(optIdx) {
   const isCorrect = optIdx === q.correct;
   markQuestion(q.id, isCorrect);
 
-  if (state.mode === 'weak') {
-    // Repasar: DON'T full re-render (list may have shifted).
-    // Just highlight buttons in place, show countdown, then advance after 4s.
-    const btns = document.querySelectorAll('.option-btn');
-    btns.forEach((btn, i) => {
-      btn.disabled = true;
-      if (i === q.correct) btn.classList.add('correct', 'reveal-correct');
-      else if (i === optIdx) btn.classList.add('wrong');
-    });
-    // Inject countdown bar
-    const qa = document.querySelector('.question-area');
-    if (qa) {
-      const cd = document.createElement('div');
-      cd.className = 'countdown-bar';
-      cd.id = 'countdown-bar';
-      cd.innerHTML = 'Siguiente en <span id="countdown-num">4</span>s';
-      qa.appendChild(cd);
-    }
+  // Same behavior for both Estudiar and Repasar
+  render();
+
+  if (isCorrect) {
+    setTimeout(() => nextStudyQuestion(), 600);
+  } else {
     state.countdownLeft = 4;
     autoAdvanceTimer = setInterval(() => {
       state.countdownLeft--;
@@ -721,34 +709,9 @@ function studyAnswer(optIdx) {
       if (el) el.textContent = state.countdownLeft;
       if (state.countdownLeft <= 0) {
         clearAutoAdvance();
-        state.answered = false;
-        state.selectedOption = -1;
-        const newList = getWeakQuestions();
-        if (newList.length === 0) { state.currentIndex = 0; render(); return; }
-        if (!isCorrect) state.currentIndex = (state.currentIndex + 1) % newList.length;
-        else if (state.currentIndex >= newList.length) state.currentIndex = 0;
-        render();
+        nextStudyQuestion();
       }
     }, 1000);
-  } else {
-    render();
-  }
-
-  if (state.mode !== 'weak') {
-    if (isCorrect) {
-      setTimeout(() => nextStudyQuestion(), 600);
-    } else {
-      state.countdownLeft = 4;
-      autoAdvanceTimer = setInterval(() => {
-        state.countdownLeft--;
-        const el = document.getElementById('countdown-num');
-        if (el) el.textContent = state.countdownLeft;
-        if (state.countdownLeft <= 0) {
-          clearAutoAdvance();
-          nextStudyQuestion();
-        }
-      }, 1000);
-    }
   }
 }
 
@@ -756,7 +719,15 @@ function nextStudyQuestion() {
   clearAutoAdvance();
   const filtered = state.mode === 'weak' ? getWeakQuestions() : getFiltered();
   if (filtered.length === 0) { state.currentIndex = 0; render(); return; }
-  state.currentIndex = (state.currentIndex + 1) % filtered.length;
+  // In Repasar, a correct answer removes the question from the list,
+  // so the next question is already at the current index (list shifted).
+  // Only increment if the list didn't shrink (i.e., wrong answer).
+  if (state.mode !== 'weak' || state.currentIndex >= filtered.length) {
+    state.currentIndex = (state.currentIndex + 1) % filtered.length;
+  } else {
+    // List may have shifted — clamp index
+    state.currentIndex = state.currentIndex % filtered.length;
+  }
   state.answered = false;
   state.selectedOption = -1;
   render();
