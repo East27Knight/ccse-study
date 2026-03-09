@@ -631,10 +631,24 @@ function renderExamResults() {
   state.examActive = false;
 }
 
+// Cached weak list so it doesn't re-sort mid-answer
+let _weakCache = null;
+function getWeakSorted() {
+  if (!_weakCache || !state.answered) {
+    _weakCache = getWeakQuestions().sort((a, b) => {
+      const pa = state.progress[a.id] || { wrong: 0 };
+      const pb = state.progress[b.id] || { wrong: 0 };
+      return pb.wrong - pa.wrong;
+    });
+  }
+  return _weakCache;
+}
+
 function renderWeak() {
-  const weak = getWeakQuestions();
+  const weak = getWeakSorted();
 
   if (weak.length === 0) {
+    _weakCache = null;
     app.innerHTML = `<div class="empty-state">
       <h3>¡No hay preguntas para repasar!</h3>
       <p>Las preguntas que falles aparecerán aquí para que las repases.</p>
@@ -643,13 +657,6 @@ function renderWeak() {
     </div>`;
     return;
   }
-
-  // Sort: most wrong first
-  weak.sort((a, b) => {
-    const pa = state.progress[a.id] || { wrong: 0 };
-    const pb = state.progress[b.id] || { wrong: 0 };
-    return pb.wrong - pa.wrong;
-  });
 
   if (state.currentIndex >= weak.length) state.currentIndex = 0;
 
@@ -691,12 +698,12 @@ function studyAnswer(optIdx) {
   state.answered = true;
   state.selectedOption = optIdx;
 
-  const filtered = state.mode === 'weak' ? getWeakQuestions() : getFiltered();
+  const filtered = state.mode === 'weak' ? getWeakSorted() : getFiltered();
   const q = filtered[state.currentIndex];
   const isCorrect = optIdx === q.correct;
   markQuestion(q.id, isCorrect);
 
-  // Same behavior for both Estudiar and Repasar
+  // Re-render to show correct/wrong highlighting
   render();
 
   if (isCorrect) {
@@ -717,19 +724,13 @@ function studyAnswer(optIdx) {
 
 function nextStudyQuestion() {
   clearAutoAdvance();
-  const filtered = state.mode === 'weak' ? getWeakQuestions() : getFiltered();
-  if (filtered.length === 0) { state.currentIndex = 0; render(); return; }
-  // In Repasar, a correct answer removes the question from the list,
-  // so the next question is already at the current index (list shifted).
-  // Only increment if the list didn't shrink (i.e., wrong answer).
-  if (state.mode !== 'weak' || state.currentIndex >= filtered.length) {
-    state.currentIndex = (state.currentIndex + 1) % filtered.length;
-  } else {
-    // List may have shifted — clamp index
-    state.currentIndex = state.currentIndex % filtered.length;
-  }
   state.answered = false;
   state.selectedOption = -1;
+  // Invalidate weak cache so next render gets fresh sorted list
+  _weakCache = null;
+  const filtered = state.mode === 'weak' ? getWeakSorted() : getFiltered();
+  if (filtered.length === 0) { state.currentIndex = 0; render(); return; }
+  state.currentIndex = (state.currentIndex + 1) % filtered.length;
   render();
   window.scrollTo(0, document.querySelector('.question-area')?.offsetTop - 60 || 0);
 }
