@@ -319,6 +319,20 @@ body {
   border-radius: 0 var(--radius) var(--radius) 0;
 }
 
+/* Countdown bar */
+.countdown-bar {
+  text-align: center;
+  padding: 12px;
+  color: var(--text2);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 12px;
+}
+.countdown-bar span {
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+
 /* Responsive */
 @media (max-width: 400px) {
   html { font-size: 15px; }
@@ -526,14 +540,8 @@ function renderQuestionCard(q, num, total, context) {
   });
   html += '</div>';
 
-  if (state.answered) {
-    html += '<div class="action-row">';
-    if (context === 'study') {
-      html += `<button class="action-btn btn-next" onclick="nextStudyQuestion()">Siguiente →</button>`;
-    } else if (context === 'exam') {
-      html += `<button class="action-btn btn-next" onclick="nextExamQuestion()">Siguiente →</button>`;
-    }
-    html += '</div>';
+  if (state.answered && state.selectedOption !== q.correct) {
+    html += `<div class="countdown-bar" id="countdown-bar">Siguiente en <span id="countdown-num">${state.countdownLeft || 4}</span>s</div>`;
   }
 
   html += '</div>';
@@ -659,18 +667,42 @@ function setFilter(t) {
   render();
 }
 
+let autoAdvanceTimer = null;
+
+function clearAutoAdvance() {
+  if (autoAdvanceTimer) { clearInterval(autoAdvanceTimer); autoAdvanceTimer = null; }
+}
+
 function studyAnswer(optIdx) {
   if (state.answered) return;
+  clearAutoAdvance();
   state.answered = true;
   state.selectedOption = optIdx;
 
   const filtered = state.mode === 'weak' ? getWeakQuestions() : getFiltered();
   const q = filtered[state.currentIndex];
-  markQuestion(q.id, optIdx === q.correct);
+  const isCorrect = optIdx === q.correct;
+  markQuestion(q.id, isCorrect);
   render();
+
+  if (isCorrect) {
+    setTimeout(() => nextStudyQuestion(), 600);
+  } else {
+    state.countdownLeft = 4;
+    autoAdvanceTimer = setInterval(() => {
+      state.countdownLeft--;
+      const el = document.getElementById('countdown-num');
+      if (el) el.textContent = state.countdownLeft;
+      if (state.countdownLeft <= 0) {
+        clearAutoAdvance();
+        nextStudyQuestion();
+      }
+    }, 1000);
+  }
 }
 
 function nextStudyQuestion() {
+  clearAutoAdvance();
   const filtered = state.mode === 'weak' ? getWeakQuestions() : getFiltered();
   state.currentIndex = (state.currentIndex + 1) % filtered.length;
   state.answered = false;
@@ -718,16 +750,34 @@ function startExam() {
 
 function examAnswer(optIdx) {
   if (state.answered) return;
+  clearAutoAdvance();
   state.answered = true;
   state.selectedOption = optIdx;
   state.examAnswers[state.examIndex] = optIdx;
 
   const q = state.examQuestions[state.examIndex];
-  markQuestion(q.id, optIdx === q.correct);
+  const isCorrect = optIdx === q.correct;
+  markQuestion(q.id, isCorrect);
   render();
+
+  if (isCorrect) {
+    setTimeout(() => nextExamQuestion(), 600);
+  } else {
+    state.countdownLeft = 4;
+    autoAdvanceTimer = setInterval(() => {
+      state.countdownLeft--;
+      const el = document.getElementById('countdown-num');
+      if (el) el.textContent = state.countdownLeft;
+      if (state.countdownLeft <= 0) {
+        clearAutoAdvance();
+        nextExamQuestion();
+      }
+    }, 1000);
+  }
 }
 
 function nextExamQuestion() {
+  clearAutoAdvance();
   state.examIndex++;
   state.answered = false;
   state.selectedOption = -1;
@@ -772,4 +822,3 @@ render();
 </script>
 </body>
 </html>
-
