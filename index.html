@@ -542,7 +542,7 @@ function renderQuestionCard(q, num, total, context) {
   });
   html += '</div>';
 
-  if (state.answered && state.selectedOption !== q.correct) {
+  if (state.answered && (state.selectedOption !== q.correct || state.mode === 'weak')) {
     html += `<div class="countdown-bar" id="countdown-bar">Siguiente en <span id="countdown-num">${state.countdownLeft || 4}</span>s</div>`;
   }
 
@@ -696,29 +696,27 @@ function studyAnswer(optIdx) {
   const isCorrect = optIdx === q.correct;
   markQuestion(q.id, isCorrect);
 
-  // In Repasar: correct answer removes q from the list, so don't
-  // re-render (list shifted). Just show green flash then advance.
-  if (isCorrect && state.mode === 'weak') {
-    // Flash the correct button green without full re-render
-    const btns = document.querySelectorAll('.option-btn');
-    btns.forEach((btn, i) => {
-      btn.disabled = true;
-      if (i === q.correct) btn.classList.add('correct', 'reveal-correct');
-    });
-    setTimeout(() => {
-      // Don't increment index — the list shrank, next item slid into place
-      state.answered = false;
-      state.selectedOption = -1;
-      const newList = getWeakQuestions();
-      if (state.currentIndex >= newList.length) state.currentIndex = 0;
-      render();
-    }, 600);
-    return;
-  }
-
   render();
 
-  if (isCorrect) {
+  if (state.mode === 'weak') {
+    // Repasar: always 4s for both correct and wrong
+    state.countdownLeft = 4;
+    autoAdvanceTimer = setInterval(() => {
+      state.countdownLeft--;
+      const el = document.getElementById('countdown-num');
+      if (el) el.textContent = state.countdownLeft;
+      if (state.countdownLeft <= 0) {
+        clearAutoAdvance();
+        state.answered = false;
+        state.selectedOption = -1;
+        const newList = getWeakQuestions();
+        if (newList.length === 0) { state.currentIndex = 0; render(); return; }
+        if (!isCorrect) state.currentIndex = (state.currentIndex + 1) % newList.length;
+        else if (state.currentIndex >= newList.length) state.currentIndex = 0;
+        render();
+      }
+    }, 1000);
+  } else if (isCorrect) {
     setTimeout(() => nextStudyQuestion(), 600);
   } else {
     state.countdownLeft = 4;
