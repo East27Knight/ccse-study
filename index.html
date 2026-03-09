@@ -413,6 +413,7 @@ function markQuestion(qid, correct) {
 }
 
 function getFiltered() {
+  if (state.shuffledOrder) return state.shuffledOrder;
   if (state.filter === 0) return QUESTIONS;
   return QUESTIONS.filter(q => q.tarea === state.filter);
 }
@@ -508,6 +509,7 @@ function renderStudy() {
     const count = QUESTIONS.filter(q => q.tarea === t).length;
     html += `<button class="chip ${state.filter===t?'active':''}" onclick="setFilter(${t})">T${t} (${count})</button>`;
   }
+  html += `<button class="chip" onclick="shuffleStudy()" style="background:var(--accent2);border-color:var(--accent)">⟳ Mezclar</button>`;
   html += '</div>';
 
   // Hint
@@ -661,6 +663,16 @@ function renderWeak() {
 // ============================================================
 function setFilter(t) {
   state.filter = t;
+  state.currentIndex = 0;
+  state.answered = false;
+  state.selectedOption = -1;
+  state.shuffledOrder = null;
+  render();
+}
+
+function shuffleStudy() {
+  const base = state.filter === 0 ? QUESTIONS : QUESTIONS.filter(q => q.tarea === state.filter);
+  state.shuffledOrder = shuffle([...base]);
   state.currentIndex = 0;
   state.answered = false;
   state.selectedOption = -1;
