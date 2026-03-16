@@ -1,0 +1,14 @@
+{
+  "name": "CCSE PRO — Prep para nacionalidad española",
+  "short_name": "CCSE PRO",
+  "description": "Prepárate para el examen CCSE de nacionalidad española. 300 preguntas, examen simulado, seguimiento de progreso.",
+  "start_url": "./ccse_study_app.html",
+  "display": "standalone",
+  "background_color": "#f5f6fa",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,2666 @@
+[
+  {
+    "id": 1001,
+    "question": "L'Espagne est…",
+    "options": [
+      "une monarchie parlementaire",
+      "une république fédérale",
+      "une monarchie fédérale"
+    ]
+  },
+  {
+    "id": 1002,
+    "question": "La loi fondamentale de l'Espagne s'appelle…",
+    "options": [
+      "Constitution",
+      "Loi de base",
+      "Règlement essentiel"
+    ]
+  },
+  {
+    "id": 1003,
+    "question": "Selon la Constitution espagnole, la souveraineté nationale réside dans…",
+    "options": [
+      "le peuple espagnol",
+      "le Gouvernement de l'État",
+      "le Congrès des Députés"
+    ]
+  },
+  {
+    "id": 1004,
+    "question": "L'Institut des Femmes est…",
+    "options": [
+      "une institution européenne",
+      "un organisme espagnol",
+      "une ONG"
+    ]
+  },
+  {
+    "id": 1005,
+    "question": "Quand puis-je effectuer les démarches sur le site électronique?",
+    "options": [
+      "À tout moment",
+      "Uniquement le matin",
+      "Du lundi au vendredi"
+    ]
+  },
+  {
+    "id": 1006,
+    "question": "Le castillan ou espagnol est langue officielle…",
+    "options": [
+      "dans toute l'Espagne",
+      "uniquement là où il n'y a pas d'autres langues",
+      "dans toute la péninsule ibérique"
+    ]
+  },
+  {
+    "id": 1007,
+    "question": "Laquelle de ces forces de sécurité est de compétence autonome?",
+    "options": [
+      "Police locale",
+      "Garde Civile",
+      "Police Forale de Navarre"
+    ]
+  },
+  {
+    "id": 1008,
+    "question": "Quelle force de sécurité est présente dans toute l'Espagne?",
+    "options": [
+      "La Police Forale de Navarre",
+      "Le Corps National de Police",
+      "Les Mossos d’Esquadra"
+    ]
+  },
+  {
+    "id": 1009,
+    "question": "La Constitution établit la séparation des pouvoirs : le pouvoir exécutif, le législatif et le…",
+    "options": [
+      "judiciaire",
+      "informatif",
+      "politique"
+    ]
+  },
+  {
+    "id": 1010,
+    "question": "Le drapeau de l'Espagne doit être utilisé…",
+    "options": [
+      "uniquement les jours de fête officielle",
+      "dans tous les bâtiments publics",
+      "uniquement lors des actes du gouvernement espagnol"
+    ]
+  },
+  {
+    "id": 1011,
+    "question": "Qui est le chef de l'État en Espagne?",
+    "options": [
+      "Le président du Gouvernement",
+      "Le roi",
+      "Le ministre de l'Économie"
+    ]
+  },
+  {
+    "id": 1012,
+    "question": "La gestion de la santé est de la compétence de…",
+    "options": [
+      "l'État",
+      "les communautés autonomes",
+      "les municipalités"
+    ]
+  },
+  {
+    "id": 1013,
+    "question": "Qui a été le premier président du Gouvernement espagnol en démocratie?",
+    "options": [
+      "Mariano Rajoy",
+      "Adolfo Suárez",
+      "José Luis Rodríguez Zapatero"
+    ]
+  },
+  {
+    "id": 1014,
+    "question": "Lequel de ces organismes est chargé d'interpréter la Constitution?",
+    "options": [
+      "Le Pouvoir Constitutionnel",
+      "Le Tribunal Constitutionnel",
+      "Le Conseil Général du Pouvoir Judiciaire"
+    ]
+  },
+  {
+    "id": 1015,
+    "question": "Qui modère le fonctionnement des institutions espagnoles?",
+    "options": [
+      "Le président du Gouvernement",
+      "Le roi",
+      "Le directeur de la Real Academia Española"
+    ]
+  },
+  {
+    "id": 1016,
+    "question": "Comment s'appelle la chambre de représentation territoriale en Espagne?",
+    "options": [
+      "Sénat",
+      "Députation permanente",
+      "Congrès des Députés"
+    ]
+  },
+  {
+    "id": 1017,
+    "question": "Que faut-il pour effectuer des démarches en ligne avec l'administration?",
+    "options": [
+      "Un passeport valide",
+      "Une signature électronique",
+      "Une signature sur papier"
+    ]
+  },
+  {
+    "id": 1018,
+    "question": "Comment la Constitution a-t-elle été approuvée?",
+    "options": [
+      "Par imposition légale",
+      "Par référendum",
+      "Par le Tribunal Constitutionnel"
+    ]
+  },
+  {
+    "id": 1019,
+    "question": "Comment s'appelle la loi la plus importante de chaque communauté autonome?",
+    "options": [
+      "Statut d'Autonomie",
+      "Norme autonome",
+      "Loi de la communauté"
+    ]
+  },
+  {
+    "id": 1020,
+    "question": "Les installations culturelles et sportives publiques sont de la compétence de…",
+    "options": [
+      "la municipalité",
+      "le Ministère de l'Éducation, de la Formation Professionnelle et des Sports",
+      "le Ministère de l'Égalité"
+    ]
+  },
+  {
+    "id": 1021,
+    "question": "Qui dirige l'administration militaire de l'Espagne?",
+    "options": [
+      "Les municipalités",
+      "Le Gouvernement",
+      "Les Cortes Générales"
+    ]
+  },
+  {
+    "id": 1022,
+    "question": "Que trouve-t-on aux Îles Baléares, à la place des députations?",
+    "options": [
+      "Cabildos",
+      "Conseils insulaires",
+      "Centres de députés"
+    ]
+  },
+  {
+    "id": 1023,
+    "question": "Quelle ville a le plus d'habitants?",
+    "options": [
+      "Séville",
+      "Barcelone",
+      "Saragosse"
+    ]
+  },
+  {
+    "id": 1024,
+    "question": "Les Cortes Générales représentent…",
+    "options": [
+      "le peuple espagnol",
+      "les partis politiques",
+      "les ministres"
+    ]
+  },
+  {
+    "id": 1025,
+    "question": "Le Congrès des Députés et le Sénat constituent le pouvoir…",
+    "options": [
+      "exécutif",
+      "législatif",
+      "judiciaire"
+    ]
+  },
+  {
+    "id": 1026,
+    "question": "Comment les citoyens peuvent-ils proposer de nouvelles lois au Congrès?",
+    "options": [
+      "En réunissant 500 000 signatures",
+      "En le demandant au roi",
+      "En créant une association"
+    ]
+  },
+  {
+    "id": 1027,
+    "question": "Combien de communautés autonomes y a-t-il en Espagne?",
+    "options": [
+      "8",
+      "17",
+      "25"
+    ]
+  },
+  {
+    "id": 1028,
+    "question": "Les couleurs du drapeau espagnol sont…",
+    "options": [
+      "blanc et rouge",
+      "rouge et jaune",
+      "jaune et blanc"
+    ]
+  },
+  {
+    "id": 1029,
+    "question": "Où se trouve le siège du Gouvernement espagnol?",
+    "options": [
+      "À Madrid",
+      "À Barcelone",
+      "À Séville"
+    ]
+  },
+  {
+    "id": 1030,
+    "question": "Le drapeau bleu avec 12 étoiles jaunes en cercle est le drapeau de…",
+    "options": [
+      "l'Union Européenne",
+      "le Parlement Européen",
+      "la Commission de l'Europe"
+    ]
+  },
+  {
+    "id": 1031,
+    "question": "Lors des élections municipales, on vote pour…",
+    "options": [
+      "maires et conseillers",
+      "ministres",
+      "députés et sénateurs"
+    ]
+  },
+  {
+    "id": 1032,
+    "question": "Quelle langue est officielle au Pays Basque?",
+    "options": [
+      "Le bable",
+      "L'aragonais",
+      "Le basque"
+    ]
+  },
+  {
+    "id": 1033,
+    "question": "Tous les Espagnols ont le devoir de connaître la langue…",
+    "options": [
+      "autonome de l'État",
+      "officielle de l'État",
+      "locale de l'État"
+    ]
+  },
+  {
+    "id": 1034,
+    "question": "L'aranès est une langue co-officielle parlée dans un petit territoire de…",
+    "options": [
+      "Catalogne",
+      "La Rioja",
+      "Aragon"
+    ]
+  },
+  {
+    "id": 1035,
+    "question": "Les institutions d'une communauté autonome sont : le conseil de gouvernement, le président et…",
+    "options": [
+      "la municipalité",
+      "l'assemblée législative",
+      "la délégation de gouvernement"
+    ]
+  },
+  {
+    "id": 1036,
+    "question": "Laquelle de ces options est une langue co-officielle dans une communauté autonome?",
+    "options": [
+      "Le galicien",
+      "L'aragonais",
+      "Le murcien"
+    ]
+  },
+  {
+    "id": 1037,
+    "question": "Quelle institution a pour but la promotion de l'enseignement de la langue espagnole et la diffusion de la culture en espagnol?",
+    "options": [
+      "L'Institut National d'Administration Publique",
+      "L'Institut National de Statistique",
+      "L'Institut Cervantes"
+    ]
+  },
+  {
+    "id": 1038,
+    "question": "Lequel des organismes suivants travaille pour obtenir la normalisation linguistique?",
+    "options": [
+      "L'Institut Ramon Llull",
+      "L'Institut Cervantes",
+      "La Real Academia Española"
+    ]
+  },
+  {
+    "id": 1039,
+    "question": "Où vit le président du Gouvernement?",
+    "options": [
+      "Au Palais Royal",
+      "Au Palais de la Zarzuela",
+      "Au Palais de la Moncloa"
+    ]
+  },
+  {
+    "id": 1040,
+    "question": "Lequel des corps suivants fait partie des Forces Armées d'Espagne?",
+    "options": [
+      "La Police Forale",
+      "La Garde Civile",
+      "L'Armée de l'Air"
+    ]
+  },
+  {
+    "id": 1041,
+    "question": "Qui fait partie du Gouvernement?",
+    "options": [
+      "Les ministres",
+      "Les conseillers",
+      "Les maires"
+    ]
+  },
+  {
+    "id": 1042,
+    "question": "L'Espagne est un…",
+    "options": [
+      "État social et démocratique de droit",
+      "État libre associé",
+      "État confédéré"
+    ]
+  },
+  {
+    "id": 1043,
+    "question": "Laquelle des abréviations suivantes correspond à un parti politique?",
+    "options": [
+      "PP",
+      "PIB",
+      "UE"
+    ]
+  },
+  {
+    "id": 1044,
+    "question": "Quel titre a la future reine, fille du roi?",
+    "options": [
+      "Princesse des Asturies",
+      "Princesse d'Aragon",
+      "Duchesse d'Alba"
+    ]
+  },
+  {
+    "id": 1045,
+    "question": "Avec quel roi la démocratie est-elle restaurée en Espagne après le régime de Franco?",
+    "options": [
+      "Avec Charles III",
+      "Avec Alphonse XIII",
+      "Avec Juan Carlos I"
+    ]
+  },
+  {
+    "id": 1046,
+    "question": "En quelle année la Constitution espagnole a-t-elle été approuvée?",
+    "options": [
+      "En 1957",
+      "En 1978",
+      "En 2001"
+    ]
+  },
+  {
+    "id": 1047,
+    "question": "Combien de communautés autonomes ont leur propre drapeau?",
+    "options": [
+      "Aucune",
+      "Toutes",
+      "Celles qui ont une langue co-officielle"
+    ]
+  },
+  {
+    "id": 1048,
+    "question": "Quel organisme officiel s'occupe des plaintes des citoyens concernant le mauvais fonctionnement des administrations?",
+    "options": [
+      "Le Bureau d'Attention au Consommateur",
+      "La Police Nationale",
+      "Le Défenseur du Peuple"
+    ]
+  },
+  {
+    "id": 1049,
+    "question": "Combien de signatures, au minimum, doivent recueillir les citoyens pour pouvoir présenter une proposition de loi?",
+    "options": [
+      "250 000",
+      "100 000",
+      "500 000"
+    ]
+  },
+  {
+    "id": 1050,
+    "question": "À laquelle des organisations internationales suivantes appartient l'Espagne?",
+    "options": [
+      "Communauté des États Indépendants (CEI)",
+      "Fonds Monétaire International (FMI)",
+      "Union Économique Euroasiatique (UEE)"
+    ]
+  },
+  {
+    "id": 1051,
+    "question": "Dans l'organisation de l'Administration, on distingue trois niveaux : central, autonome et…",
+    "options": [
+      "étatique",
+      "régional",
+      "local"
+    ]
+  },
+  {
+    "id": 1052,
+    "question": "Le pouvoir législatif appartient...",
+    "options": [
+      "au président et aux ministres",
+      "aux juges et magistrats",
+      "aux députés et sénateurs"
+    ]
+  },
+  {
+    "id": 1053,
+    "question": "Où vit le roi ?",
+    "options": [
+      "Au Palais de la Moneda",
+      "Au Palais de la Zarzuela",
+      "Au Palais de la Moncloa"
+    ]
+  },
+  {
+    "id": 1054,
+    "question": "Le nom officiel du parlement espagnol est…",
+    "options": [
+      "Cortes Generales",
+      "Congrès des Députés",
+      "Sénat"
+    ]
+  },
+  {
+    "id": 1055,
+    "question": "L'Institut du Commerce Extérieur d'Espagne, l'Institut des Femmes et la Direction Générale de la Circulation…",
+    "options": [
+      "sont des organismes autonomes",
+      "dépendent des ministères",
+      "sont des organismes internationaux"
+    ]
+  },
+  {
+    "id": 1056,
+    "question": "Qui peut régner en Espagne ?",
+    "options": [
+      "Seulement les hommes",
+      "Seulement les femmes",
+      "Tant les hommes que les femmes"
+    ]
+  },
+  {
+    "id": 1057,
+    "question": "La Cour des Comptes dépend de…",
+    "options": [
+      "la Présidence du Gouvernement",
+      "les Cortes Generales",
+      "le Ministère des Finances"
+    ]
+  },
+  {
+    "id": 1058,
+    "question": "Qui est la troisième autorité de l'État, après le roi et le président du Gouvernement ?",
+    "options": [
+      "Le président du Sénat",
+      "Le ministre de l'Économie",
+      "Le président du Congrès des Députés"
+    ]
+  },
+  {
+    "id": 1059,
+    "question": "Quelle langue co-officielle est parlée aux Îles Baléares ?",
+    "options": [
+      "Galicien",
+      "Catalan",
+      "Basque"
+    ]
+  },
+  {
+    "id": 1060,
+    "question": "La Constitution défend des valeurs telles que la liberté, l'égalité, le pluralisme politique et…",
+    "options": [
+      "la justice",
+      "la solidarité",
+      "la fraternité"
+    ]
+  },
+  {
+    "id": 1061,
+    "question": "Lorsqu'une loi est déjà approuvée, que faut-il pour pouvoir l'appliquer ?",
+    "options": [
+      "Rien",
+      "Des normes qui la développent",
+      "Être révisée par le Parlement"
+    ]
+  },
+  {
+    "id": 1062,
+    "question": "Combien d'habitants y a-t-il en Espagne ?",
+    "options": [
+      "95 millions",
+      "49 millions",
+      "67 millions"
+    ]
+  },
+  {
+    "id": 1063,
+    "question": "Lequel de ces organismes est un organe consultatif du Gouvernement espagnol ?",
+    "options": [
+      "Le Parlement Européen",
+      "Le Conseil d'État",
+      "Le Tribunal Constitutionnel"
+    ]
+  },
+  {
+    "id": 1064,
+    "question": "Qui dirige la politique intérieure et extérieure de l'Espagne ?",
+    "options": [
+      "Le roi",
+      "Le Gouvernement",
+      "Le Congrès des Députés"
+    ]
+  },
+  {
+    "id": 1065,
+    "question": "Le Défenseur du Peuple dépend de…",
+    "options": [
+      "le Conseil des Ministres",
+      "la Cour des Comptes",
+      "les Cortes Generales"
+    ]
+  },
+  {
+    "id": 1066,
+    "question": "L'Institut Etxepare a pour mission la diffusion du…",
+    "options": [
+      "basque et de la culture basque",
+      "bable et de la culture cantabrique",
+      "galicien et de la culture galicienne"
+    ]
+  },
+  {
+    "id": 1067,
+    "question": "Laquelle de ces villes se trouve parmi les 10 plus peuplées d'Espagne ?",
+    "options": [
+      "Cádiz",
+      "Málaga",
+      "Albacete"
+    ]
+  },
+  {
+    "id": 1068,
+    "question": "Qui peut effectuer des démarches en ligne auprès de l'Administration Publique ?",
+    "options": [
+      "Juges et magistrats",
+      "Tout citoyen",
+      "Avocats inscrits"
+    ]
+  },
+  {
+    "id": 1069,
+    "question": "Comment s'appelle le roi d'Espagne ?",
+    "options": [
+      "Juan Carlos I",
+      "Felipe VI",
+      "Alfonso XIII"
+    ]
+  },
+  {
+    "id": 1070,
+    "question": "Comment s'appelle l'organe de gouvernement des juges et magistrats ?",
+    "options": [
+      "Cour Suprême",
+      "Conseil Général du Pouvoir Judiciaire",
+      "Conseil d'État"
+    ]
+  },
+  {
+    "id": 1071,
+    "question": "Qui approuve les budgets généraux de l'État ?",
+    "options": [
+      "Les Cortes Generales",
+      "La Cour des Comptes",
+      "Le Gouvernement espagnol"
+    ]
+  },
+  {
+    "id": 1072,
+    "question": "La Constitution espagnole est…",
+    "options": [
+      "la loi fondamentale",
+      "une partie d'une autre loi",
+      "une loi secondaire"
+    ]
+  },
+  {
+    "id": 1073,
+    "question": "Les Cortes Generales sont composées du Sénat et…",
+    "options": [
+      "du Congrès des Députés",
+      "de la Cour Suprême",
+      "du Conseil d'État"
+    ]
+  },
+  {
+    "id": 1074,
+    "question": "Qui élabore les lois ?",
+    "options": [
+      "Le pouvoir exécutif",
+      "Le pouvoir législatif",
+      "Le pouvoir judiciaire"
+    ]
+  },
+  {
+    "id": 1075,
+    "question": "La défense de l'intégrité territoriale de l'Espagne appartient à…",
+    "options": [
+      "la Police Nationale et la Garde Civile",
+      "les Forces Armées",
+      "la Police Nationale et les polices autonomiques"
+    ]
+  },
+  {
+    "id": 1076,
+    "question": "L'armée espagnole participe depuis 1989 à des missions de paix de la…",
+    "options": [
+      "Organisation des États Ibero-Américains (OEI)",
+      "Union Européenne Occidentale (UEO)",
+      "Organisation des Nations Unies (ONU)"
+    ]
+  },
+  {
+    "id": 1077,
+    "question": "Qui surveille les ports et aéroports, les frontières et les côtes ?",
+    "options": [
+      "La Garde Civile",
+      "La Police locale",
+      "La Police Nationale"
+    ]
+  },
+  {
+    "id": 1078,
+    "question": "Qui effectue le contrôle des passeports aux frontières de l'Espagne ?",
+    "options": [
+      "La Garde Civile",
+      "La Police locale",
+      "La Police Nationale"
+    ]
+  },
+  {
+    "id": 1079,
+    "question": "Lequel des politiciens suivants a été président du Gouvernement en Espagne ?",
+    "options": [
+      "Manuel Fraga",
+      "José María Aznar",
+      "Yolanda Díaz"
+    ]
+  },
+  {
+    "id": 1080,
+    "question": "Comment s'appelle la police autonome de Catalogne ?",
+    "options": [
+      "Garde Civile",
+      "Ertzaintza",
+      "Mossos d'Esquadra"
+    ]
+  },
+  {
+    "id": 1081,
+    "question": "Comment s'appelle la police autonome du Pays Basque ?",
+    "options": [
+      "Ertzaintza",
+      "Garde Civile",
+      "Mossos d'Esquadra"
+    ]
+  },
+  {
+    "id": 1082,
+    "question": "Depuis quelle année le roi Felipe VI est-il roi ?",
+    "options": [
+      "Depuis 1975",
+      "Depuis 2014",
+      "Depuis 2020"
+    ]
+  },
+  {
+    "id": 1083,
+    "question": "Qui régule le trafic dans les villages et villes ?",
+    "options": [
+      "La Garde Civile",
+      "Protection Civile",
+      "La Police Locale"
+    ]
+  },
+  {
+    "id": 1084,
+    "question": "Qui peut déposer une plainte auprès du Défenseur du Peuple ?",
+    "options": [
+      "Seulement les citoyens légalement résidents",
+      "Seulement les Espagnols de plus de 18 ans",
+      "Tous les citoyens, espagnols ou étrangers"
+    ]
+  },
+  {
+    "id": 1085,
+    "question": "En Espagne, le vote lors des élections est…",
+    "options": [
+      "un droit",
+      "un devoir",
+      "une obligation"
+    ]
+  },
+  {
+    "id": 1086,
+    "question": "Qui surveille le trafic sur les routes ?",
+    "options": [
+      "La Garde Civile",
+      "La Police Nationale",
+      "L'Armée de Terre"
+    ]
+  },
+  {
+    "id": 1087,
+    "question": "Quel organisme est chargé de collecter les impôts ?",
+    "options": [
+      "La Cour des Comptes",
+      "L'Agence Tributaire",
+      "Le Conseil Économique et Social"
+    ]
+  },
+  {
+    "id": 1088,
+    "question": "Où sont publiées les lois nationales ?",
+    "options": [
+      "Dans le bulletin de l'Institut National de Statistique (INE)",
+      "Dans le Portail de l'Administration Électronique (PAe)",
+      "Dans le Bulletin Officiel de l'État (BOE)"
+    ]
+  },
+  {
+    "id": 1089,
+    "question": "Comment s'appellent les organes de gouvernement qui n'existent qu'aux Canaries ?",
+    "options": [
+      "Cabildos",
+      "Conseils insulaires",
+      "Députations"
+    ]
+  },
+  {
+    "id": 1090,
+    "question": "Lequel de ces démarches administratives peut être effectué dans le siège électronique ?",
+    "options": [
+      "Traiter le DNI",
+      "Renouveler le passeport",
+      "Payer les impôts"
+    ]
+  },
+  {
+    "id": 1091,
+    "question": "Quel est le numéro de téléphone d'information de l'Administration Générale de l'État ?",
+    "options": [
+      "010",
+      "060",
+      "091"
+    ]
+  },
+  {
+    "id": 1092,
+    "question": "L'Espagne est organisée en…",
+    "options": [
+      "cantons",
+      "communautés autonomes",
+      "états fédéraux"
+    ]
+  },
+  {
+    "id": 1093,
+    "question": "Combien de partis politiques y a-t-il en Espagne ?",
+    "options": [
+      "Aucun",
+      "Un",
+      "Beaucoup"
+    ]
+  },
+  {
+    "id": 1094,
+    "question": "Où a lieu l'investiture du président du Gouvernement ?",
+    "options": [
+      "Au Palais de la Moncloa",
+      "Au Congrès des Députés",
+      "Au Sénat"
+    ]
+  },
+  {
+    "id": 1095,
+    "question": "Qui a le commandement suprême des Forces Armées ?",
+    "options": [
+      "Le roi",
+      "Le président du Gouvernement",
+      "Le ministre de la Défense"
+    ]
+  },
+  {
+    "id": 1096,
+    "question": "Qui est le représentant de l'État dans une communauté autonome ?",
+    "options": [
+      "Le président de la communauté autonome",
+      "Le délégué du Gouvernement",
+      "Le président de l'Assemblée autonome"
+    ]
+  },
+  {
+    "id": 1097,
+    "question": "Combien de provinces y a-t-il en Espagne ?",
+    "options": [
+      "45",
+      "50",
+      "55"
+    ]
+  },
+  {
+    "id": 1098,
+    "question": "L'enseignement des langues co-officielles est de la compétence…",
+    "options": [
+      "de l'État",
+      "de la communauté autonome",
+      "de la province"
+    ]
+  },
+  {
+    "id": 1099,
+    "question": "Le pouvoir exécutif appartient…",
+    "options": [
+      "au Gouvernement de l'État",
+      "au Congrès et au Sénat",
+      "aux juges et magistrats"
+    ]
+  },
+  {
+    "id": 1100,
+    "question": "Combien de chambres y a-t-il dans le parlement espagnol ?",
+    "options": [
+      "Une",
+      "Deux",
+      "Trois"
+    ]
+  },
+  {
+    "id": 1101,
+    "question": "L'approvisionnement en eau et l'éclairage des villes relèvent de…",
+    "options": [
+      "la mairie",
+      "le gouvernement autonome",
+      "le ministère des Travaux publics et de l'Urbanisme"
+    ]
+  },
+  {
+    "id": 1102,
+    "question": "Dans des matières comme la nationalité, l'immigration, l'émigration ou l'étranger, seule a compétence…",
+    "options": [
+      "l'État",
+      "les communautés autonomes",
+      "les mairies"
+    ]
+  },
+  {
+    "id": 1103,
+    "question": "Combien de femmes ont été présidentes du gouvernement en Espagne ?",
+    "options": [
+      "Aucune",
+      "Une",
+      "Deux"
+    ]
+  },
+  {
+    "id": 1104,
+    "question": "Les relations internationales relèvent de…",
+    "options": [
+      "l'État",
+      "les communautés autonomes",
+      "les mairies"
+    ]
+  },
+  {
+    "id": 1105,
+    "question": "La mairie est composée du maire et…",
+    "options": [
+      "des conseillers",
+      "des députés",
+      "des sénateurs"
+    ]
+  },
+  {
+    "id": 1106,
+    "question": "Qui forme le gouvernement des communautés autonomes ?",
+    "options": [
+      "Le président et les ministres",
+      "Le maire et les conseillers",
+      "Le président et les conseillers"
+    ]
+  },
+  {
+    "id": 1107,
+    "question": "Quel est l'organe de gouvernement dans les municipalités ?",
+    "options": [
+      "La mairie",
+      "La députation",
+      "Le cabildo"
+    ]
+  },
+  {
+    "id": 1108,
+    "question": "Comment s'appellent les organes de gouvernement des provinces espagnoles ?",
+    "options": [
+      "Cabildos",
+      "Conseils insulaires",
+      "Députations"
+    ]
+  },
+  {
+    "id": 1109,
+    "question": "Quel est l'organe supérieur du pouvoir exécutif ?",
+    "options": [
+      "Le gouvernement",
+      "Les forces armées",
+      "Les Cortes générales"
+    ]
+  },
+  {
+    "id": 1110,
+    "question": "La langue espagnole s'appelle aussi…",
+    "options": [
+      "aragonais",
+      "castillan",
+      "léonais"
+    ]
+  },
+  {
+    "id": 1111,
+    "question": "Qui est élu lors des élections au Parlement européen ?",
+    "options": [
+      "Les ministres européens",
+      "Les conseillers délégués",
+      "Les eurodéputés"
+    ]
+  },
+  {
+    "id": 1112,
+    "question": "Les Espagnols peuvent voter à partir de…",
+    "options": [
+      "16 ans",
+      "18 ans",
+      "21 ans"
+    ]
+  },
+  {
+    "id": 1113,
+    "question": "Certains citoyens étrangers peuvent voter aux élections…",
+    "options": [
+      "municipales",
+      "autonomiques",
+      "générales"
+    ]
+  },
+  {
+    "id": 1114,
+    "question": "Qui contrôle la gestion financière de l'État ?",
+    "options": [
+      "La Banque d'Espagne",
+      "L'Agence fiscale",
+      "La Cour des comptes"
+    ]
+  },
+  {
+    "id": 1115,
+    "question": "Qui est élu lors des élections générales ?",
+    "options": [
+      "Les sénateurs et députés",
+      "Les eurodéputés",
+      "Les conseillers"
+    ]
+  },
+  {
+    "id": 1116,
+    "question": "Combien de membres a le Congrès des députés ?",
+    "options": [
+      "300",
+      "350",
+      "400"
+    ]
+  },
+  {
+    "id": 1117,
+    "question": "Les municipalités et provinces font partie de l'administration…",
+    "options": [
+      "autonome",
+      "locale",
+      "centrale"
+    ]
+  },
+  {
+    "id": 1118,
+    "question": "La communauté autonome la plus peuplée d'Espagne est…",
+    "options": [
+      "Andalousie",
+      "Catalogne",
+      "Castille-et-León"
+    ]
+  },
+  {
+    "id": 1119,
+    "question": "Comment s'appelle l'organisation qui défend les intérêts des travailleurs ?",
+    "options": [
+      "Association",
+      "Parti",
+      "Syndicat"
+    ]
+  },
+  {
+    "id": 1120,
+    "question": "Qui élit le président du gouvernement ?",
+    "options": [
+      "Le Congrès des députés",
+      "Le roi",
+      "La Cour suprême. TÂCHE Droits et devoirs fondamentaux"
+    ]
+  },
+  {
+    "id": 2001,
+    "question": "En Espagne, la Constitution oblige tous les citoyens à pratiquer une religion.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2002,
+    "question": "Les Espagnols qui obtiennent la nationalité par résidence doivent attendre trois ans pour pouvoir voter aux élections.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2003,
+    "question": "En Espagne, la Constitution interdit la torture et la peine de mort.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2004,
+    "question": "Le fonctionnement des partis politiques doit être démocratique.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2005,
+    "question": "On peut obliger quelqu'un à dire quelles sont ses idées politiques ou religieuses.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2006,
+    "question": "On peut limiter à une personne le droit d'entrer et de sortir librement d'Espagne pour des raisons idéologiques.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2007,
+    "question": "L'éducation primaire (de 6 à 12 ans) est gratuite et obligatoire.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2008,
+    "question": "La Constitution garantit le droit des Espagnols à un logement décent.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2009,
+    "question": "En Espagne, la police peut entrer dans n'importe quelle maison sans résolution judiciaire à tout moment.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2010,
+    "question": "Le secret des communications des Espagnols est garanti, sauf résolution judiciaire.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2011,
+    "question": "La Constitution reconnaît le droit des citoyens à s'associer librement.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2012,
+    "question": "Les enseignants peuvent enseigner librement, dans les limites de la Constitution.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2013,
+    "question": "La Constitution reconnaît uniquement les droits fondamentaux des Espagnols.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2014,
+    "question": "Les citoyens doivent collaborer avec les juges s'ils le demandent.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2015,
+    "question": "La loi limite l'accès de tiers aux données à caractère personnel.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2016,
+    "question": "La liberté de la presse est limitée par le respect de l'honneur des personnes.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2017,
+    "question": "En Espagne, les causes de séparation et de divorce sont régulées par la loi.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2018,
+    "question": "L'accès aux soins de santé gratuits est uniquement pour les personnes de plus de 65 ans.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2019,
+    "question": "En Espagne, les hommes et les femmes ont les mêmes droits.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2020,
+    "question": "L'enseignement obligatoire se compose de deux étapes : Éducation primaire et Éducation secondaire obligatoire.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2021,
+    "question": "En Espagne, il y a une religion officielle.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2022,
+    "question": "L'accès aux soins de santé publics est gratuit.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2023,
+    "question": "L'enseignement de base en Espagne est uniquement pour les étrangers.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2024,
+    "question": "En Espagne, le droit d'association est reconnu.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2025,
+    "question": "Les syndicats peuvent participer à des négociations avec des employeurs et avec le gouvernement.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2026,
+    "question": "Les travailleurs ont le droit de faire grève.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2027,
+    "question": "La liberté idéologique est garantie uniquement dans une partie du territoire national.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2028,
+    "question": "Tous les citoyens ont accès au système de sécurité sociale public, sauf s'ils sont au chômage.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2029,
+    "question": "Tous ont le droit de jouir d'un environnement adéquat pour le développement de la personne, ainsi que le devoir de le conserver.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2030,
+    "question": "En Espagne, les pouvoirs publics doivent protéger la santé et promouvoir le sport.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2031,
+    "question": "L'enseignement de base en Espagne est obligatoire et gratuit.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2032,
+    "question": "La loi interdit la discrimination pour toute circonstance personnelle ou sociale.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2033,
+    "question": "En Espagne, les citoyens peuvent se déplacer librement sur tout le territoire national.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2034,
+    "question": "Les juges administrent la justice en Espagne selon les indications du Gouvernement.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2035,
+    "question": "Les Espagnols doivent aider en cas de catastrophe ou de calamité publique.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 2036,
+    "question": "En Espagne, les citoyens peuvent choisir dans quelle ville ils veulent vivre.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ]
+  },
+  {
+    "id": 3001,
+    "question": "Où se trouvent Cáceres et Badajoz ?",
+    "options": [
+      "Dans le Principauté des Asturies",
+      "En Andalousie",
+      "En Estrémadure"
+    ]
+  },
+  {
+    "id": 3002,
+    "question": "Quelle est la capitale de la Communauté Valencienne ?",
+    "options": [
+      "Alicante",
+      "Castellón",
+      "Valence"
+    ]
+  },
+  {
+    "id": 3003,
+    "question": "Où se trouvent les îles Baléares ?",
+    "options": [
+      "Dans la mer Cantabrique",
+      "Dans la mer Méditerranée",
+      "Dans l'océan Atlantique"
+    ]
+  },
+  {
+    "id": 3004,
+    "question": "Comment s'appelle la vaste plaine située au centre de la péninsule ibérique ?",
+    "options": [
+      "Marisma",
+      "Cordillère",
+      "Méseta"
+    ]
+  },
+  {
+    "id": 3005,
+    "question": "Le parc national d'Ordesa est situé en...",
+    "options": [
+      "Aragon",
+      "Navarre",
+      "Castille-La Manche"
+    ]
+  },
+  {
+    "id": 3006,
+    "question": "Dans quelle communauté autonome se trouvent Guadalajara et Cuenca ?",
+    "options": [
+      "Dans la Castille et León",
+      "Dans la Castille-La Manche",
+      "Dans les Cantabres"
+    ]
+  },
+  {
+    "id": 3007,
+    "question": "Quelle communauté autonome a pour capitale Saint-Jacques-de-Compostelle ?",
+    "options": [
+      "Galice",
+      "Asturies",
+      "Cantabres"
+    ]
+  },
+  {
+    "id": 3008,
+    "question": "Où se trouve Almería ?",
+    "options": [
+      "En Andalousie",
+      "Aux Canaries",
+      "En Aragon"
+    ]
+  },
+  {
+    "id": 3009,
+    "question": "La capitale de la communauté autonome de Galice est…",
+    "options": [
+      "La Corogne",
+      "Vigo",
+      "Saint-Jacques-de-Compostelle"
+    ]
+  },
+  {
+    "id": 3010,
+    "question": "Lequel de ces rivières se jette dans la mer Méditerranée ?",
+    "options": [
+      "Le Tage",
+      "Le Júcar",
+      "Le Douro"
+    ]
+  },
+  {
+    "id": 3011,
+    "question": "Où se trouve le mont Aneto ?",
+    "options": [
+      "Dans les Pyrénées",
+      "Dans le Système Central",
+      "Dans la Sierra Nevada"
+    ]
+  },
+  {
+    "id": 3012,
+    "question": "La ville de Vitoria est le siège administratif de…",
+    "options": [
+      "Navarre",
+      "Pays Basque",
+      "La Rioja"
+    ]
+  },
+  {
+    "id": 3013,
+    "question": "L'Espagne est divisée en…",
+    "options": [
+      "départements et régions",
+      "communautés et villes autonomes",
+      "régions autonomes et districts"
+    ]
+  },
+  {
+    "id": 3014,
+    "question": "Le parc national d'Aigüestortes est situé en...",
+    "options": [
+      "Catalogne",
+      "Aragon",
+      "Castille et León"
+    ]
+  },
+  {
+    "id": 3015,
+    "question": "Au nord de l'Afrique se trouvent Ceuta et…",
+    "options": [
+      "Almería",
+      "Melilla",
+      "Cádiz"
+    ]
+  },
+  {
+    "id": 3016,
+    "question": "Dans quelle région d'Espagne y a-t-il un climat caractérisé par des hivers froids et des étés très chauds ?",
+    "options": [
+      "Canaries",
+      "Communauté Valencienne",
+      "Madrid"
+    ]
+  },
+  {
+    "id": 3017,
+    "question": "Lequel de ces rivières se jette dans l'océan Atlantique ?",
+    "options": [
+      "Le Guadalquivir",
+      "Le Manzanares",
+      "Le Júcar"
+    ]
+  },
+  {
+    "id": 3018,
+    "question": "Laquelle de ces provinces fait partie de la Communauté de Castille et León ?",
+    "options": [
+      "Burgos",
+      "Huesca",
+      "Guadalajara"
+    ]
+  },
+  {
+    "id": 3019,
+    "question": "Dans quelle communauté autonome se trouve la ville de Huesca ?",
+    "options": [
+      "Castille-La Manche",
+      "Aragon",
+      "Estrémadure"
+    ]
+  },
+  {
+    "id": 3020,
+    "question": "Les Canaries ont un climat…",
+    "options": [
+      "méditerranéen",
+      "océanique",
+      "subtropical"
+    ]
+  },
+  {
+    "id": 3021,
+    "question": "Le principal fleuve qui se jette dans la mer Méditerranée est le…",
+    "options": [
+      "Ebre",
+      "Douro",
+      "Tage"
+    ]
+  },
+  {
+    "id": 3022,
+    "question": "L'Espagne est parmi les pays d'Europe les plus…",
+    "options": [
+      "pluvieux",
+      "montagneux",
+      "froids"
+    ]
+  },
+  {
+    "id": 3023,
+    "question": "Dans quelle province se trouve le parc national de Monfragüe ?",
+    "options": [
+      "À Cáceres",
+      "À Murcie",
+      "À Ciudad Real"
+    ]
+  },
+  {
+    "id": 3024,
+    "question": "Quelle est la capitale de la communauté autonome d'Estrémadure ?",
+    "options": [
+      "Cáceres",
+      "Badajoz",
+      "Mérida"
+    ]
+  },
+  {
+    "id": 4001,
+    "question": "Les personnages principaux du roman Don Quichotte sont Don Quichotte et…",
+    "options": [
+      "Don Juan",
+      "Sancho Panza",
+      "Doña Inés"
+    ]
+  },
+  {
+    "id": 4002,
+    "question": "Quelle scientifique espagnole est reconnue pour ses recherches ?",
+    "options": [
+      "Almudena Grandes",
+      "Montserrat Caballé",
+      "Margarita Salas"
+    ]
+  },
+  {
+    "id": 4003,
+    "question": "Qui a écrit La maison de Bernarda Alba ?",
+    "options": [
+      "Federico García Lorca",
+      "Miguel de Cervantes",
+      "Antonio Machado"
+    ]
+  },
+  {
+    "id": 4004,
+    "question": "Qui a écrit Nada, un roman sur l'après-guerre espagnole ?",
+    "options": [
+      "Carmen Laforet",
+      "Ana María Matute",
+      "María Dueñas"
+    ]
+  },
+  {
+    "id": 4005,
+    "question": "Quel musicien a composé L'amour sorcier ?",
+    "options": [
+      "Manuel de Falla",
+      "Isaac Albéniz",
+      "Joaquín Rodrigo"
+    ]
+  },
+  {
+    "id": 4006,
+    "question": "Qu'est-ce qui est typique lors de la Nuit de la Saint-Jean ?",
+    "options": [
+      "Manger des raisins",
+      "Allumer des feux de joie",
+      "Offrir des livres"
+    ]
+  },
+  {
+    "id": 4007,
+    "question": "Quel est l'instrument le plus caractéristique de la musique flamenco ?",
+    "options": [
+      "La gaita",
+      "La guitare",
+      "Le piano"
+    ]
+  },
+  {
+    "id": 4008,
+    "question": "Isabel Coixet est une…",
+    "options": [
+      "chanteuse pop",
+      "danseuse classique",
+      "réalisatrice de cinéma"
+    ]
+  },
+  {
+    "id": 4009,
+    "question": "Une des chanteuses espagnoles les plus célèbres actuellement est...",
+    "options": [
+      "Rosalía",
+      "Marisol",
+      "Lola Flores"
+    ]
+  },
+  {
+    "id": 4010,
+    "question": "Dans quelle ville d'Espagne y a-t-il une mosquée qui est Patrimoine de l'Humanité ?",
+    "options": [
+      "Saint-Jacques-de-Compostelle",
+      "Madrid",
+      "Córdoba"
+    ]
+  },
+  {
+    "id": 4011,
+    "question": "Dans quelle ville d'Espagne se trouve l'Alhambra, qui est Patrimoine de l'Humanité ?",
+    "options": [
+      "À Séville",
+      "À Córdoba",
+      "À Grenade"
+    ]
+  },
+  {
+    "id": 4012,
+    "question": "Quel est le nom de la réalisatrice espagnole qui s'est distinguée par son regard critique et par la modernisation du cinéma national ?",
+    "options": [
+      "Pilar Miró",
+      "Sara Baras",
+      "Penélope Cruz"
+    ]
+  },
+  {
+    "id": 4013,
+    "question": "Quel roman à succès a écrit Irene Vallejo ?",
+    "options": [
+      "L'infini dans un jonc",
+      "Le temps entre les coutures",
+      "Le chemin"
+    ]
+  },
+  {
+    "id": 4014,
+    "question": "Comment s'appelle la plus grande institution publique dédiée à la recherche en Espagne ?",
+    "options": [
+      "Real Academia Española (RAE)",
+      "Consejo Superior de investigaciones Científicas (CSIC)",
+      "La sociedad General de Autores (SGAE)"
+    ]
+  },
+  {
+    "id": 4015,
+    "question": "Paco de Lucía était un célèbre....",
+    "options": [
+      "scientifique",
+      "guitariste",
+      "peintre"
+    ]
+  },
+  {
+    "id": 4016,
+    "question": "Qu'est-ce que nous célébrons le 24 décembre ?",
+    "options": [
+      "Carnaval",
+      "Réveillon de Noël",
+      "Saint-Jean"
+    ]
+  },
+  {
+    "id": 4017,
+    "question": "Juan Mari Arzak est un célèbre....",
+    "options": [
+      "écrivain",
+      "musicien",
+      "cuisinier"
+    ]
+  },
+  {
+    "id": 4018,
+    "question": "Qui était Clara Campoamor ?",
+    "options": [
+      "Une défenseure des droits des femmes",
+      "Une chanteuse lyrique",
+      "Une réalisatrice de cinéma"
+    ]
+  },
+  {
+    "id": 4019,
+    "question": "Quelles chansons typiques sont chantées à Noël ?",
+    "options": [
+      "Flamenco",
+      "Villancicos",
+      "Jotas"
+    ]
+  },
+  {
+    "id": 4020,
+    "question": "La Liga et la Coupe du Roi sont des compétitions de…",
+    "options": [
+      "natation",
+      "athlétisme",
+      "football"
+    ]
+  },
+  {
+    "id": 4021,
+    "question": "Qui a reçu le prix Nobel de littérature ?",
+    "options": [
+      "María Zambrano",
+      "Pablo Picasso",
+      "Vicente Aleixandre"
+    ]
+  },
+  {
+    "id": 4022,
+    "question": "Quelle fête est célébrée à Pampelune le 7 juillet ?",
+    "options": [
+      "Les sanfermines",
+      "Les Fallas",
+      "La Feria de Abril"
+    ]
+  },
+  {
+    "id": 4023,
+    "question": "Teresa Perales et Daniel Molina sont...",
+    "options": [
+      "des champions paralympiques",
+      "des musiciens célèbres",
+      "des artistes de cinéma"
+    ]
+  },
+  {
+    "id": 4024,
+    "question": "Que prennent les Espagnols la nuit du 31 décembre pour célébrer le changement d'année ?",
+    "options": [
+      "Des lentilles",
+      "Des raisins",
+      "Des olives"
+    ]
+  },
+  {
+    "id": 4025,
+    "question": "Quelle femme est l'auteure du tableau La verbena ?",
+    "options": [
+      "Maruja Mallo",
+      "Carmen Maura",
+      "Clara Lago"
+    ]
+  },
+  {
+    "id": 4026,
+    "question": "Dans quel musée espagnol peut-on voir le tableau Guernica de Picasso ?",
+    "options": [
+      "Musée du Prado",
+      "Musée Reina Sofía",
+      "Musée Thyssen-Bornemisza"
+    ]
+  },
+  {
+    "id": 4027,
+    "question": "Quelle écrivaine espagnole écrit dans une autre langue officielle d'Espagne ?",
+    "options": [
+      "Mercè Rodoreda",
+      "Almudena Grandes",
+      "Ana María Matute"
+    ]
+  },
+  {
+    "id": 4028,
+    "question": "Quelles trois cultures ont coexisté dans l'Espagne médiévale ?",
+    "options": [
+      "La chrétienne, la juive et la musulmane",
+      "La phénicienne, la juive et la musulmane",
+      "La grecque, la chrétienne et la juive"
+    ]
+  },
+  {
+    "id": 4029,
+    "question": "Le 6 décembre est célébré en Espagne…",
+    "options": [
+      "la Journée de la Constitution",
+      "l'arrivée de Colomb en Amérique",
+      "la Journée du Livre"
+    ]
+  },
+  {
+    "id": 4030,
+    "question": "Quelle ville était un centre scientifique en Al-Ándalus, où l'on étudiait la médecine et l'astronomie ?",
+    "options": [
+      "Barcelone",
+      "Madrid",
+      "Córdoba"
+    ]
+  },
+  {
+    "id": 4031,
+    "question": "Dans quelle ville espagnole se trouve le Musée Guggenheim ?",
+    "options": [
+      "Bilbao",
+      "Madrid",
+      "Valence"
+    ]
+  },
+  {
+    "id": 4032,
+    "question": "Le Prix Cervantes est décerné à…",
+    "options": [
+      "des acteurs",
+      "des écrivains",
+      "des peintres"
+    ]
+  },
+  {
+    "id": 4033,
+    "question": "Quel prix reconnaît les meilleurs acteurs et films ?",
+    "options": [
+      "Prix Goya",
+      "Prix Nobel",
+      "Prix Cervantes"
+    ]
+  },
+  {
+    "id": 4034,
+    "question": "Quels prix promeuvent en Espagne des valeurs scientifiques, culturelles et humanistes ?",
+    "options": [
+      "Les Prix Cervantes",
+      "Les Prix Princesse des Asturies",
+      "Les Prix Goya"
+    ]
+  },
+  {
+    "id": 4035,
+    "question": "Lequel de ces sports est très populaire en Espagne ?",
+    "options": [
+      "Le football",
+      "Le ski",
+      "Le golf"
+    ]
+  },
+  {
+    "id": 4036,
+    "question": "Lequel de ces sportifs joue au tennis ?",
+    "options": [
+      "Pau Gasol",
+      "Carlos Sainz",
+      "Carlos Alcaraz"
+    ]
+  },
+  {
+    "id": 5001,
+    "question": "Quel document doivent demander les étrangers pour résider légalement en Espagne ?",
+    "options": [
+      "Le Document National d'Identité (DNI)",
+      "La Carte d'Identité d'Étranger (TIE)",
+      "Le certificat d'inscription"
+    ]
+  },
+  {
+    "id": 5002,
+    "question": "Quel est le document qui certifie le lieu de résidence du titulaire ?",
+    "options": [
+      "Le certificat d'inscription",
+      "L'acte de naissance",
+      "Le permis de conduire"
+    ]
+  },
+  {
+    "id": 5003,
+    "question": "À quoi remplace l'enregistrement électronique individuel ?",
+    "options": [
+      "Au DNI",
+      "Au permis de conduire",
+      "Au livret de famille"
+    ]
+  },
+  {
+    "id": 5004,
+    "question": "Quel est l'âge minimum pour conduire une voiture en Espagne ?",
+    "options": [
+      "16 ans",
+      "18 ans",
+      "20 ans"
+    ]
+  },
+  {
+    "id": 5005,
+    "question": "Le permis de conduire se fait à…",
+    "options": [
+      "la Direction Générale de la Circulation (DGT)",
+      "la Police Nationale",
+      "le Registre Civil"
+    ]
+  },
+  {
+    "id": 5006,
+    "question": "Pour obtenir le permis de conduire, il faut réussir…",
+    "options": [
+      "un examen théorique",
+      "un examen pratique",
+      "un examen théorique et un autre pratique"
+    ]
+  },
+  {
+    "id": 5007,
+    "question": "Où se traite le livret de famille ?",
+    "options": [
+      "Au Registre Civil",
+      "À la Sécurité Sociale",
+      "Dans les commissariats de police"
+    ]
+  },
+  {
+    "id": 5008,
+    "question": "Lequel de ces canaux de télévision est autonome ?",
+    "options": [
+      "Telecinco",
+      "Nova",
+      "Canal Sur"
+    ]
+  },
+  {
+    "id": 5009,
+    "question": "Combien de temps dure le congé de maternité ou de paternité ?",
+    "options": [
+      "12 semaines",
+      "19 semaines",
+      "22 semaines"
+    ]
+  },
+  {
+    "id": 5010,
+    "question": "Quelle est la limite maximale d'alcool dans le sang autorisée pour les conducteurs, en grammes par litre (g/l) ?",
+    "options": [
+      "0,5",
+      "0,7",
+      "0,9"
+    ]
+  },
+  {
+    "id": 5011,
+    "question": "Quel est le type de résidence le plus courant en Espagne ?",
+    "options": [
+      "Maison rurale",
+      "Appartement dans un immeuble résidentiel",
+      "Chalet indépendant"
+    ]
+  },
+  {
+    "id": 5012,
+    "question": "Quelle communauté autonome est connue pour la qualité de son huile d'olive ?",
+    "options": [
+      "Cantabrie",
+      "Andalousie",
+      "La Rioja"
+    ]
+  },
+  {
+    "id": 5013,
+    "question": "Comment s'appelle la révision que doivent passer obligatoirement les voitures ?",
+    "options": [
+      "IBI (Impôt sur les Biens Immobiliers)",
+      "ITV (Inspection Technique des Véhicules)",
+      "ITE (Inspection Technique des Bâtiments)"
+    ]
+  },
+  {
+    "id": 5014,
+    "question": "L'apéritif qui accompagne la boisson dans les bars et restaurants s'appelle...",
+    "options": [
+      "sandwich",
+      "tapa",
+      "premier plat"
+    ]
+  },
+  {
+    "id": 5015,
+    "question": "Où se traite la carte sanitaire ?",
+    "options": [
+      "Au commissariat de police",
+      "Au centre de santé",
+      "Au Ministère de la Santé"
+    ]
+  },
+  {
+    "id": 5016,
+    "question": "Avec combien d'enfants une famille est-elle considérée comme nombreuse ?",
+    "options": [
+      "Avec 1 enfant",
+      "Avec 2 enfants",
+      "Avec 3 enfants"
+    ]
+  },
+  {
+    "id": 5017,
+    "question": "En Espagne, le mariage est autorisé…",
+    "options": [
+      "uniquement entre personnes de même sexe",
+      "entre personnes de même sexe et de sexe différent",
+      "uniquement entre personnes de sexe différent"
+    ]
+  },
+  {
+    "id": 5018,
+    "question": "Les propriétaires de chiens doivent les enregistrer auprès de…",
+    "options": [
+      "le Ministère de la Justice",
+      "le commissariat de police",
+      "la Mairie"
+    ]
+  },
+  {
+    "id": 5019,
+    "question": "Les principaux ingrédients de la tortilla espagnole sont des œufs et…",
+    "options": [
+      "des poivrons",
+      "des pommes de terre",
+      "des tomates"
+    ]
+  },
+  {
+    "id": 5020,
+    "question": "Quel est l'un des plats les plus connus internationalement de la gastronomie espagnole ?",
+    "options": [
+      "Gazpacho",
+      "Pizza",
+      "Pâtes"
+    ]
+  },
+  {
+    "id": 5021,
+    "question": "Lequel de ces canaux de télévision est public ?",
+    "options": [
+      "Tele 5",
+      "La 1",
+      "Antena 3"
+    ]
+  },
+  {
+    "id": 5022,
+    "question": "Dans une communauté de voisins, l'une des règles est…",
+    "options": [
+      "d'ouvrir la porte au facteur",
+      "de ne pas déranger avec du bruit",
+      "de nettoyer les espaces communs"
+    ]
+  },
+  {
+    "id": 5023,
+    "question": "Lequel de ces ingrédients est le principal de la paella valencienne ?",
+    "options": [
+      "Riz",
+      "Chorizo",
+      "Pois chiches"
+    ]
+  },
+  {
+    "id": 5024,
+    "question": "Le cidre est une boisson typique de…",
+    "options": [
+      "Asturies",
+      "Valence",
+      "Canaries"
+    ]
+  },
+  {
+    "id": 5025,
+    "question": "Les Espagnols ont deux noms de famille, le premier est…",
+    "options": [
+      "obligatoirement celui de la mère",
+      "obligatoirement celui du père",
+      "peut être celui de la mère ou celui du père"
+    ]
+  },
+  {
+    "id": 5026,
+    "question": "La Fête Nationale d'Espagne est le…",
+    "options": [
+      "6 décembre",
+      "15 août",
+      "12 octobre"
+    ]
+  },
+  {
+    "id": 5027,
+    "question": "Quels jours la plupart des magasins ou du petit commerce ferment-ils ?",
+    "options": [
+      "Les lundis",
+      "Les dimanches",
+      "Les samedis après-midi"
+    ]
+  },
+  {
+    "id": 5028,
+    "question": "Où fait-on le passeport ?",
+    "options": [
+      "Au registre civil",
+      "Dans un commissariat de police",
+      "À la Mairie"
+    ]
+  },
+  {
+    "id": 5029,
+    "question": "Le Ministère de l'Égalité est chargé de lutter contre la violence de genre et la…",
+    "options": [
+      "séparation",
+      "discrimination",
+      "solidarité"
+    ]
+  },
+  {
+    "id": 5030,
+    "question": "Quelle communauté autonome est connue pour la qualité de ses cavas ?",
+    "options": [
+      "Galice",
+      "Catalogne",
+      "Castille-La Manche"
+    ]
+  },
+  {
+    "id": 5031,
+    "question": "Quel document est nécessaire pour recevoir des soins médicaux dans le système de santé public ?",
+    "options": [
+      "Le passeport",
+      "La carte sanitaire",
+      "Le certificat de naissance"
+    ]
+  },
+  {
+    "id": 5032,
+    "question": "Le fuseau horaire des Canaries, par rapport à la Péninsule, est de…",
+    "options": [
+      "deux heures de moins",
+      "une heure de moins",
+      "une heure de plus"
+    ]
+  },
+  {
+    "id": 5033,
+    "question": "Pour accéder à l'Université, il faut réussir un test d'évaluation appelé…",
+    "options": [
+      "Selectivité",
+      "Examen préuniversitaire",
+      "Test d'Accès à l'Université"
+    ]
+  },
+  {
+    "id": 5034,
+    "question": "Lequel de ces produits l'Espagne doit-elle importer d'autres pays ?",
+    "options": [
+      "Pétrole",
+      "Huile d'olive",
+      "Médicaments"
+    ]
+  },
+  {
+    "id": 5035,
+    "question": "Quel type d'impôts les citoyens doivent-ils payer en Espagne ?",
+    "options": [
+      "Impôts directs comme l'IRPF",
+      "Impôts indirects comme la TVA",
+      "Impôts directs et indirects"
+    ]
+  },
+  {
+    "id": 5036,
+    "question": "Les adultes sans Baccalauréat peuvent étudier à l'Université en passant un test spécial à partir de...",
+    "options": [
+      "18 ans",
+      "23 ans",
+      "25 ans"
+    ]
+  },
+  {
+    "id": 5037,
+    "question": "Où peut-on trouver la norme suivante « Ne pas marcher sur la pelouse, ni arracher des fleurs » ?",
+    "options": [
+      "Dans les zones de loisirs",
+      "Dans les théâtres",
+      "Dans les stades de football"
+    ]
+  },
+  {
+    "id": 5038,
+    "question": "Le Baccalauréat en Espagne...",
+    "options": [
+      "est obligatoire",
+      "se compose de deux années académiques",
+      "est l'enseignement pour les élèves de 14 à 16 ans"
+    ]
+  },
+  {
+    "id": 5039,
+    "question": "La Taxe sur la Valeur Ajoutée (TVA) fait partie des...",
+    "options": [
+      "Impôts indirects",
+      "Impôts sur le revenu",
+      "Impôts sur les sociétés"
+    ]
+  },
+  {
+    "id": 5040,
+    "question": "Quel numéro reçoivent les travailleurs lorsqu'ils commencent leur premier emploi ?",
+    "options": [
+      "Celui de la Sécurité Sociale",
+      "Celui du passeport",
+      "Le numéro de service"
+    ]
+  },
+  {
+    "id": 5041,
+    "question": "Les écoles publiques...",
+    "options": [
+      "peuvent décider de leur nombre de places",
+      "peuvent embaucher les enseignants qu'elles souhaitent",
+      "sont gratuites"
+    ]
+  },
+  {
+    "id": 5042,
+    "question": "Lequel de ces ports est l'un des principaux d'Espagne ?",
+    "options": [
+      "Tenerife",
+      "Alicante",
+      "Algeciras"
+    ]
+  },
+  {
+    "id": 5043,
+    "question": "Une école concertée est une école privée qui...",
+    "options": [
+      "reçoit de l'argent de l'Administration",
+      "est financée par les parents des élèves",
+      "reçoit de l'argent des banques"
+    ]
+  },
+  {
+    "id": 5044,
+    "question": "L'Espagne exporte principalement des produits vers des pays...",
+    "options": [
+      "d'Hispano-Amérique",
+      "de l'Union Européenne",
+      "du nord de l'Afrique"
+    ]
+  },
+  {
+    "id": 5045,
+    "question": "Les bibliothèques publiques sont gratuites pour...",
+    "options": [
+      "tout le monde",
+      "les chômeurs",
+      "les enfants"
+    ]
+  },
+  {
+    "id": 5046,
+    "question": "Lequel de ces produits l'Espagne exporte-t-elle plus qu'elle n'importe ?",
+    "options": [
+      "Gaz",
+      "Vêtements",
+      "Chaussures"
+    ]
+  },
+  {
+    "id": 5047,
+    "question": "Une personne de plus de 18 ans peut obtenir le diplôme de Gradué en Éducation Secondaire Obligatoire dans...",
+    "options": [
+      "un Centre d'Éducation pour Adultes",
+      "un centre d'enseignement primaire",
+      "une université"
+    ]
+  },
+  {
+    "id": 5048,
+    "question": "La formation professionnelle...",
+    "options": [
+      "est pour les plus de 25 ans",
+      "peut être de niveau moyen ou supérieur",
+      "est obligatoire"
+    ]
+  },
+  {
+    "id": 5049,
+    "question": "Où allons-nous pour voir le médecin de famille ou le pédiatre ?",
+    "options": [
+      "À l'hôpital",
+      "Au centre de santé",
+      "À la pharmacie"
+    ]
+  },
+  {
+    "id": 5050,
+    "question": "Pour combien d'années la carte sanitaire européenne est-elle valable ?",
+    "options": [
+      "Pour un an",
+      "Pour deux ans",
+      "Pour 10 ans"
+    ]
+  },
+  {
+    "id": 5051,
+    "question": "À quelle heure dîne-t-on normalement en Espagne ?",
+    "options": [
+      "À 18 h",
+      "À 23 h",
+      "À 21 ou 22 h"
+    ]
+  },
+  {
+    "id": 5052,
+    "question": "Quel est le numéro de téléphone unique pour toute urgence ?",
+    "options": [
+      "060",
+      "112",
+      "911"
+    ]
+  },
+  {
+    "id": 5053,
+    "question": "Lequel de ces journaux est publié à l'échelle nationale ?",
+    "options": [
+      "El Diario Vasco",
+      "El País",
+      "La Voz de Galicia"
+    ]
+  },
+  {
+    "id": 5054,
+    "question": "Où peut-on acheter des timbres et du tabac ?",
+    "options": [
+      "Au kiosque",
+      "À la pharmacie",
+      "Au bureau de tabac"
+    ]
+  },
+  {
+    "id": 5055,
+    "question": "Quand peut-on appeler le numéro de téléphone pour l'assistance aux victimes de violence de genre ?",
+    "options": [
+      "24 heures sur 24",
+      "Pendant les heures de la matinée",
+      "Du lundi au vendredi"
+    ]
+  },
+  {
+    "id": 5056,
+    "question": "L'organisation qui travaille pour l'intégration des personnes avec un handicap visuel est...",
+    "options": [
+      "la ONCE",
+      "Unicef",
+      "Cáritas"
+    ]
+  },
+  {
+    "id": 5057,
+    "question": "Le Chemin de Saint-Jacques est...",
+    "options": [
+      "Patrimoine de l'Humanité",
+      "une voie ferrée",
+      "un sentier pour randonneurs"
+    ]
+  },
+  {
+    "id": 5058,
+    "question": "Quel est le canal de télévision d'État qui diffuse des nouvelles d'actualité nationale et internationale en continu ?",
+    "options": [
+      "Teledeporte",
+      "La 1",
+      "Canal 24 heures"
+    ]
+  },
+  {
+    "id": 5059,
+    "question": "Le numéro de téléphone gratuit pour les victimes de violence de genre est le...",
+    "options": [
+      "091",
+      "112",
+      "016"
+    ]
+  },
+  {
+    "id": 5060,
+    "question": "En Espagne, le réseau de trains peut être à grande distance, à moyenne distance et...",
+    "options": [
+      "de banlieue",
+      "rural",
+      "transnational"
+    ]
+  },
+  {
+    "id": 5061,
+    "question": "Que est interdit à la porte d'une école ?",
+    "options": [
+      "Fumer une cigarette",
+      "Conduire une voiture",
+      "Vendre des boissons gazeuses"
+    ]
+  },
+  {
+    "id": 5062,
+    "question": "Quel diplôme obtient-on à la fin d'un cycle de niveau moyen de Formation Professionnelle ?",
+    "options": [
+      "Baccalauréat",
+      "Technicien",
+      "Gradué en ESO"
+    ]
+  },
+  {
+    "id": 5063,
+    "question": "Quel diplôme obtient-on après avoir réalisé une thèse doctorale en Espagne ?",
+    "options": [
+      "Master",
+      "Gradué",
+      "Docteur"
+    ]
+  },
+  {
+    "id": 5064,
+    "question": "Où achète-t-on des médicaments sur ordonnance ?",
+    "options": [
+      "À l'hôpital",
+      "Au centre de santé",
+      "À la pharmacie"
+    ]
+  },
+  {
+    "id": 5065,
+    "question": "Laquelle de ces trois recommandations peut-on trouver dans un parc ?",
+    "options": [
+      "Ne pas marcher sur la pelouse",
+      "Il est recommandé de payer le billet avec l'argent exact",
+      "Respecter les règles concernant les bagages"
+    ]
+  },
+  {
+    "id": 5066,
+    "question": "Laquelle des choses suivantes est obligatoire pour le propriétaire d'une voiture en Espagne ?",
+    "options": [
+      "Le garage",
+      "L'assurance",
+      "L'alarme"
+    ]
+  },
+  {
+    "id": 5067,
+    "question": "L'aéroport Adolfo Suárez est à...",
+    "options": [
+      "Barcelone",
+      "Madrid",
+      "Bilbao"
+    ]
+  },
+  {
+    "id": 5068,
+    "question": "Dans une voiture, l'utilisation de la ceinture de sécurité est obligatoire...",
+    "options": [
+      "uniquement sur le siège du conducteur",
+      "dans les sièges avant",
+      "dans tous les sièges"
+    ]
+  },
+  {
+    "id": 5069,
+    "question": "Quelle est la limite de vitesse sur autoroute ?",
+    "options": [
+      "90 km/h",
+      "120 km/h",
+      "150 km/h"
+    ]
+  },
+  {
+    "id": 5070,
+    "question": "Céder le siège aux personnes à mobilité réduite est une règle que l'on trouve indiquée dans...",
+    "options": [
+      "les transports publics",
+      "les bibliothèques",
+      "les musées"
+    ]
+  },
+  {
+    "id": 5071,
+    "question": "Quel est le moyen de transport public qui a une lumière verte allumée s'il est libre ?",
+    "options": [
+      "Le bus",
+      "Le taxi",
+      "Le tram"
+    ]
+  },
+  {
+    "id": 5072,
+    "question": "Que dois-je faire si j'ai un chien ?",
+    "options": [
+      "Le promener sans laisse",
+      "Lui mettre une puce et le vacciner",
+      "Ne pas ramasser ses excréments"
+    ]
+  },
+  {
+    "id": 5073,
+    "question": "Les Espagnols ont besoin du passeport pour voyager à...",
+    "options": [
+      "Italie",
+      "Chine",
+      "Allemagne"
+    ]
+  },
+  {
+    "id": 5074,
+    "question": "Quel est l'âge minimum pour travailler en Espagne ?",
+    "options": [
+      "16 ans",
+      "18 ans",
+      "21 ans"
+    ]
+  },
+  {
+    "id": 5075,
+    "question": "Quel est le secteur le plus important de l'économie espagnole ?",
+    "options": [
+      "Agriculture",
+      "Services",
+      "Construction"
+    ]
+  },
+  {
+    "id": 5076,
+    "question": "L'Espagne est innovante dans le secteur de...",
+    "options": [
+      "l'ingénierie aérospatiale",
+      "les énergies renouvelables",
+      "l'énergie nucléaire"
+    ]
+  },
+  {
+    "id": 5077,
+    "question": "Comment s'appelle la loi du travail la plus importante d'Espagne ?",
+    "options": [
+      "La Constitution",
+      "Le Statut des Travailleurs",
+      "Le Service Public de l'Emploi État"
+    ]
+  },
+  {
+    "id": 5078,
+    "question": "Lequel de ces établissements est ouvert 24 heures sur 24 si nécessaire ?",
+    "options": [
+      "Pharmacie",
+      "Poissonnerie",
+      "Librairie"
+    ]
+  },
+  {
+    "id": 5079,
+    "question": "L'éducation infantile en Espagne...",
+    "options": [
+      "est obligatoire",
+      "a deux cycles",
+      "commence à 4 ans"
+    ]
+  },
+  {
+    "id": 5080,
+    "question": "Quand commence le calendrier scolaire ?",
+    "options": [
+      "En août",
+      "En septembre",
+      "En octobre"
+    ]
+  },
+  {
+    "id": 5081,
+    "question": "Les Écoles Officielles de Langues...",
+    "options": [
+      "sont des centres d'enseignement privé",
+      "sont pour les plus de 16 ans",
+      "dépendent de l'Institut Cervantes"
+    ]
+  },
+  {
+    "id": 5082,
+    "question": "Quel est le document qui récapitule les années de cotisation à la Sécurité Sociale ?",
+    "options": [
+      "Rapport de vie professionnelle",
+      "Reçu de solde de tout compte",
+      "Certificat de professionnalité"
+    ]
+  },
+  {
+    "id": 5083,
+    "question": "Les conventions collectives d'une entreprise sont celles qui sont signées avec les représentants des travailleurs sur...",
+    "options": [
+      "les conditions de travail",
+      "l'avenir de l'entreprise",
+      "la relation avec les clients"
+    ]
+  },
+  {
+    "id": 5084,
+    "question": "Dans lequel de ces secteurs l'Espagne se distingue-t-elle ?",
+    "options": [
+      "Dans le tourisme",
+      "Dans l'industrie automobile",
+      "Dans la technologie numérique"
+    ]
+  }
+]
